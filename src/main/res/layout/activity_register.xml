@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:padding="24dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_back_arrow"
+            android:contentDescription="Back"
+            android:layout_gravity="start"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_logo"
+            android:layout_marginBottom="20dp"
+            android:alpha="0.9"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register for ByteBalance"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/textColorPrimary"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/etNewUsername"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Username"
+            android:padding="12dp"
+            android:background="@drawable/input_field"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etNewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Password"
+            android:padding="12dp"
+            android:inputType="textPassword"
+            android:background="@drawable/input_field"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Confirm Password"
+            android:padding="12dp"
+            android:inputType="textPassword"
+            android:background="@drawable/input_field"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnRegisterUser"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Register"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_green"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="12dp" />
+    </LinearLayout>
+</ScrollView>
