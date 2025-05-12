@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundGradientEnd">#C8E6C9</color>
+    <color name="backgroundGradientStart">#E8F5E9</color>
+    <color name="darkGreen">#2E7D32</color>
+    <color name="lightGreen">#A5D6A7</color>
+    <color name="primaryGreen">#43A047</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">ByteBalanceApp</string>
+    <style name="Base.Theme.ByteBalanceApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.ByteBalanceApp" parent="Base.Theme.ByteBalanceApp"/>
+</resources>
